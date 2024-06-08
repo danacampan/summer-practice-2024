@@ -1,10 +1,8 @@
 import axios from 'axios';
 import { useContext, useEffect, useReducer } from 'react';
-//import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Recommendation from '../components/Recommendation';
 import { Helmet } from 'react-helmet-async';
 import MessageBox from '../components/MessageBox';
 import data from '../data';
@@ -25,16 +23,16 @@ function HomeScreen() {
   }, []); */
 
   return (
-    <div>
+    <div className="small-container">
       <Helmet>
         <title>Filmster</title>
       </Helmet>
       <h1>Home</h1>
       <Row>
-        {data.recommendations.map((recommendation, index) => (
+        {data.recommendations.slice(0, 3).map((recommendation, index) => (
           <Col
             key={index}
-            sm={6}
+            sm={12}
             md={4}
             lg={4}
             className="recommendations mb-4"
