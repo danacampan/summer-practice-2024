@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('Desktop4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: rgb(5, 5, 5);
+}
+.rec-image {
+  width: 200px;
+  height: 300px;
+}
+
+img {
+  width: 230px;
+  height: 300px;
+  max-width: 400px;
+}
+.be-vietnam-pro-semibold {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.be-vietnam-pro-medium {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rec-card {
+  width: 200px;
+  height: 300px;
+  padding: 20;
+}
+
+.recommendations {
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 26.5rem;
+  height: 35rem;
+}
+.small-container {
+  color: aliceblue;
+}
